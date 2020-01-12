@@ -11,8 +11,8 @@ echo "$(date +%Y-%m-%d:%H:%M:%S)" >>$LOG
 echo "" >>$LOG
 
 echo "Set instance variables..." >>$LOG
-DOWNLOAD_PATH="https://openhab.jfrog.io/openhab/libs-milestone-local/org/openhab/distro/openhab/2.5.0.M4"
-DOWNLOAD_FILE1="openhab-2.5.0.M4.zip"
+DOWNLOAD_PATH="https://bintray.com/openhab/mvn/download_file?file_path=org/openhab/distro/openhab/2.5.0"
+DOWNLOAD_FILE1="openhab-2.5.0.zip"
 
 # Add more files by separating them using spaces
 INSTALL_FILES="${DOWNLOAD_PATH}/${DOWNLOAD_FILE1}"
